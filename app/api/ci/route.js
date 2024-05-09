@@ -13,6 +13,9 @@ export async function POST(req) {
       },
     });
 
+    console.log("process.env.G_USER", process.env.G_USER);
+    console.log("process.env.G_KEY", process.env.G);
+
     let tableHTML = `<table border="1">
       <thead>
         <tr>
